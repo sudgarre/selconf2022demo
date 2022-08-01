@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestProfile xmlns="http://www.specflow.org/schemas/plus/TestProfile/1.5">
+  <Settings projectName="Demo"/>
+	<Execution stopAfterFailures="0" testThreadCount="3" testSchedulingMode="Sequential" retryFor="None" retryCount="0" apartmentState="MTA"/>
+	<Environment testThreadIsolation="Process"/>
+  <TestAssemblyPaths>
+    <TestAssemblyPath>SelConf2022Demo.dll</TestAssemblyPath>
+  </TestAssemblyPaths>
+  <Report>
+    <Template name="ReportTemplate.cshtml" outputName="TestReport_{now}.html"/>
+  </Report>
+  <!--<Filter>@cpaRegression1</Filter>-->
+</TestProfile>
